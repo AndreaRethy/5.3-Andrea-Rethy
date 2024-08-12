@@ -1,9 +1,9 @@
 # 5.3-Andrea-Rethy
 
-Run the project with command:
+Run the project with command for Exercici1:
 
 ```
-npm run dev
+npm run dev1
 ```
 
 To start mongodb/brew/mongodb-community now and restart at login:

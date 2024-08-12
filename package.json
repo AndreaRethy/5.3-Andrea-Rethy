@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "dev": "nodemon Exercici1/script.js"
+    "dev1": "nodemon Exercici1/script.js",
+    "dev2": "nodemon Exercici2/script.js"
   },
   "keywords": [],
   "author": "",

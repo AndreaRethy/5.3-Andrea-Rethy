@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const Customer = require("./schemas/Customer");
-const Glasses = require('./schemas/Glasses');
+const Customer = require("../schemas/Customer");
+const Glasses = require('../schemas/Glasses');
 
 mongoose.connect("mongodb://localhost/opticadb");
 
