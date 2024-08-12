@@ -1,9 +1,16 @@
 const mongoose = require('mongoose');
-const Address = require('./Address');
 
 const supplierSchema = mongoose.Schema({
     name: String,
-    address: Address,
+    address: {
+        street: String,
+        number: Number,
+        floor: Number,
+        door: Number,
+        city: String,
+        postal_code: String,
+        country: String
+     },
     telephone: Number,
     fax: Number,
     NIF: String
