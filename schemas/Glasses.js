@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 const glassesSchema = mongoose.Schema({
     brand: String,
-    prescription_right: String,
-    prescription_left: String,
+    prescription_right: Number,
+    prescription_left: Number,
     type_of_frame: {
         type: String,
         enum: ['flotant', 'pasta', 'metàl·lica']
